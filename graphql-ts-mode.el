@@ -272,6 +272,8 @@
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.graphql\\'"  . graphql-ts-mode))
 ;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.graphqls\\'"  . graphql-ts-mode))
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.gql\\'"  . graphql-ts-mode))
 
 (provide 'graphql-ts-mode)
